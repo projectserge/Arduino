@@ -1,10 +1,19 @@
-/**SD/MicroSD card Read & Write using a RTC (Real Time Clock) and ambient sensors.
- ** MOSI - pin 11.
- ** MISO - pin 12.
- ** CLK/SCK - pin 13.
- ** CS - pin 10 (for MicroSD Card Adapter or Seeedstudio Shield).
+/* SD/MicroSD card Read & Write using a RTC (Real Time Clock) and ambient sensors.
+ * MOSI - pin 11.
+ * MISO - pin 12.
+ * CLK/SCK - pin 13.
+ * CS - pin 10 (for MicroSD Card Adapter or Seeedstudio Shield).
  * SCL - Pin PC5/A5/Pin closest to USB/reset.
  * SDA - Pin PC4/A4/Pin next to SCL.
+ * Here is the parts list:
+ * -Arduino Uno
+ * -USB Cable
+ * -Breadboard
+ * -Jumper Wires
+ * -DS3231 RTC Module (Real Time Clock)
+ * -MicroSD Card Adapter
+ * -DHT-11 Temperature/Humidity Sensor
+ * -BMP180 Pressure Sensor
 */
 
 #define RTC_CHIP_IS_DS3231 //The RTC used has a DS3231 chipset.
